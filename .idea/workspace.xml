@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc3671b-a699-4723-ab63-604e4d5929e9" name="Default Changelist" comment="test yuliia">
+      <change afterPath="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.1_del_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.4_wordcount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.5_parseweb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.6_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book_scripts/ch7_files/ex7.2_parsing_floats.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_scripts/ch7_files/ex7.2_parsing_floats.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,14 +31,14 @@
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="md" value="1" />
-          <entry key="py" value="28" />
+          <entry key="py" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="28" />
+          <entry key="Python" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -42,7 +47,7 @@
           <entry key="dummy" value="18" />
           <entry key="gitignore" value="12" />
           <entry key="md" value="21" />
-          <entry key="py" value="4326" />
+          <entry key="py" value="5276" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
@@ -50,7 +55,7 @@
         <counts>
           <entry key="Markdown" value="21" />
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="4349" />
+          <entry key="Python" value="5299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -62,95 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_scripts/ch3_conditions/example_with_error.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_scripts/ch2_basics/ex2.5_temperature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_scripts/ch3_conditions/ex3.3_Scores.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_scripts/ch5_loops/ex5.1_numbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_scripts/ch5_loops/ex5.2_min_max_numbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_scripts/ch6_strings/ex6.1_traverse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_scripts/ch6_strings/ex6.3_count.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="37" column="5" selection-start-line="37" selection-end-line="38" selection-end-column="45" />
-              <folding>
-                <marker date="1542598147539" expanded="true" signature="664:808" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_scripts/ch7_files/ex7.1_file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book_scripts/ch7_files/ex7.2_parsing_floats.py">
+        <entry file="file://$PROJECT_DIR$/book_scripts/ch8_lists/ex8.6_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_scripts/ch4_functions/ex4.6_rate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="270">
+              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -193,6 +114,10 @@
         <option value="$PROJECT_DIR$/book_scripts/ch7_files/ex6.1_file.py" />
         <option value="$PROJECT_DIR$/book_scripts/ch7_files/ex7.1_file.py" />
         <option value="$PROJECT_DIR$/book_scripts/ch7_files/ex7.2_parsing_floats.py" />
+        <option value="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.1_del_elements.py" />
+        <option value="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.4_wordcount.py" />
+        <option value="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.5_parseweb.py" />
+        <option value="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.6_numbers.py" />
       </list>
     </option>
   </component>
@@ -274,6 +199,12 @@
               <item name="book_scripts" type="462c0819:PsiDirectoryNode" />
               <item name="ch7_files" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="study-python-for-everybody" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-python-for-everybody" type="462c0819:PsiDirectoryNode" />
+              <item name="book_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="ch8_lists" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -287,6 +218,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/book_scripts/ch8_lists" />
       <recent name="$PROJECT_DIR$/book_scripts/ch7_files" />
       <recent name="$PROJECT_DIR$/book_scripts/ch6_strings" />
       <recent name="$PROJECT_DIR$/book_scripts/ch5_loops" />
@@ -305,91 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex7.2_parsing_floats">
-    <configuration name="ex5.2_min_max_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="coursera_pfe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book_scripts/ch5_loops" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book_scripts/ch5_loops/ex5.2_min_max_numbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex6.1_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="coursera_pfe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book_scripts/ch7_files" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book_scripts/ch7_files/ex7.1_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex6.1_traverse" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="coursera_pfe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book_scripts/ch6_strings" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book_scripts/ch6_strings/ex6.1_traverse.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex6.3_count" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="coursera_pfe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book_scripts/ch6_strings" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book_scripts/ch6_strings/ex6.3_count.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ex8.6_numbers">
     <configuration name="ex7.2_parsing_floats" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coursera_pfe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -411,20 +259,104 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex8.1_del_elements" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="coursera_pfe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book_scripts/ch8_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.1_del_elements.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex8.4_wordcount" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="coursera_pfe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book_scripts/ch8_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.4_wordcount.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex8.5_parseweb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="coursera_pfe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book_scripts/ch8_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.5_parseweb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex8.6_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="coursera_pfe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book_scripts/ch8_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book_scripts/ch8_lists/ex8.6_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.ex5.2_min_max_numbers" />
-      <item itemvalue="Python.ex6.1_traverse" />
-      <item itemvalue="Python.ex6.3_count" />
-      <item itemvalue="Python.ex6.1_file" />
       <item itemvalue="Python.ex7.2_parsing_floats" />
+      <item itemvalue="Python.ex8.1_del_elements" />
+      <item itemvalue="Python.ex8.4_wordcount" />
+      <item itemvalue="Python.ex8.5_parseweb" />
+      <item itemvalue="Python.ex8.6_numbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex8.6_numbers" />
+        <item itemvalue="Python.ex8.5_parseweb" />
+        <item itemvalue="Python.ex8.4_wordcount" />
+        <item itemvalue="Python.ex8.1_del_elements" />
         <item itemvalue="Python.ex7.2_parsing_floats" />
-        <item itemvalue="Python.ex6.1_file" />
-        <item itemvalue="Python.ex6.3_count" />
-        <item itemvalue="Python.ex6.1_traverse" />
-        <item itemvalue="Python.ex5.2_min_max_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -467,16 +399,16 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49487644" visible="true" weight="0.327551" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49487644" weight="0.327551" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49849308" weight="0.3302217" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49849308" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996986" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015069" side_tool="true" weight="0.33061224" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49849308" weight="0.33061224" />
@@ -593,20 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_scripts/ch6_strings/ex6.1_traverse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_scripts/ch7_files/ex7.1_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book_scripts/ch6_strings/ex6.3_count.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
@@ -624,6 +542,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book_scripts/ch8_lists/ex8.1_del_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1542692024947" expanded="true" signature="441:446" ph="..." />
+            <marker date="1542692024947" expanded="true" signature="492:609" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_scripts/ch7_files/ex7.1_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_scripts/ch8_lists/ex8.4_wordcount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_scripts/ch8_lists/ex8.5_parseweb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_scripts/ch6_strings/ex6.1_traverse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book_scripts/ch5_loops/ex5.1_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -633,8 +590,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/book_scripts/ch7_files/ex7.2_parsing_floats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="390">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_scripts/ch8_lists/ex8.6_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@
 
         Enter the file name: mbox.txt
         Average spam confidence: 0.894128046745
-        
+
         Enter the file name: mbox-short.txt
         Average spam confidence: 0.750718518519
 
