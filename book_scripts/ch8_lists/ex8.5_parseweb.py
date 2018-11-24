@@ -12,7 +12,7 @@
 
 """
 
-mbox_data = open("../ch7_files/mbox-short.txt")
+mbox_data = open("../assets/mbox-short.txt")
 i = 0
 
 for line in mbox_data:

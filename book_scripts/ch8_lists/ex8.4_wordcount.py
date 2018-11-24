@@ -17,7 +17,7 @@
 
 """
 
-romeo_data = open("romeo.txt")
+romeo_data = open("../assets/romeo.txt")
 words = {}
 
 for line in romeo_data:
