@@ -54,7 +54,7 @@ file_data.close()
 print("\nFull unsorted list, total elements[{}]:".format(len(domain_count)))
 print(domain_count)
 
-# get top 10 senders [option 1]
+# get top 3 senders [option 1]
 print("\nTop list by value:")
 print(get_top_dict_items_by_value_v1(domain_count, 3))
 print(get_top_dict_items_by_value_v2(domain_count, 3))
