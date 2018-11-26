@@ -39,10 +39,7 @@ letters = dict()
 
 for line in file_data:
 
-    # print(f"[o][{len(line.strip())}]:[{line.strip()}]")
-
     line_cleaned = re.sub(r"[^a-z]", "", line.strip().lower())
-    # print(f"[m][{len(line_cleaned)}]:[{line_cleaned}]")
 
     for letter in line_cleaned:
         letters[letter] = letters.get(letter, 0) + 1
@@ -51,12 +48,3 @@ for letter, frequency in get_top_dict_items_by_value_v1(letters):
     print(f"Letter [{letter}]: [{frequency}];")
 
 file_data.close()
-
-# full list
-# print("\nFull unsorted list, total elements[{}]:".format(len(hour_count)))
-# print(hour_count)
-
-# get top N senders
-# print("\nTop list by value:")
-# print(get_top_dict_items_by_value_v1(hour_count, 5))
-# print(get_top_dict_items_by_value_v2(hour_count, 5))
