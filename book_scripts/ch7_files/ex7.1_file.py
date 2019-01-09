@@ -10,7 +10,7 @@
 
 """
 
-file = open("mbox-short.txt")
+file = open("../assets/mbox-short.txt")
 
 for line in file:
     if line.startswith("From:"):
