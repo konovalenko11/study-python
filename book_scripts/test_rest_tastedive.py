@@ -71,15 +71,15 @@ def get_movie_data(title):
 ## step 5
 ##############################################################
 def get_movie_rating(movie_details):
-    print(movie_details['Ratings'])
+    # print(movie_details['Ratings'])
 
     movie_rating = 0
     for movie in movie_details['Ratings']:
         if movie['Source'] == 'Rotten Tomatoes':
             movie_rating = int(movie['Value'][:-1])
-        print('Rating: [{Source}], [{Value}]'.format(**movie))
+        # print('Rating: [{Source}], [{Value}]'.format(**movie))
 
-    print(movie_rating)
+    # print(movie_rating)
     return movie_rating
 
 
@@ -87,9 +87,23 @@ def get_movie_rating(movie_details):
 ## step 6
 ##############################################################
 def get_sorted_recommendations(movie_list):
-    related_movies_list = []
+    related_movies_list = get_related_titles(movie_list)
+    print('Related Titles: ' + ",".join(related_movies_list))
 
-    return related_movies_list
+    movie_rt_dict = dict()
+    for title in related_movies_list:
+        movie_rt_dict[title] = get_movie_rating(get_movie_data(title))
+
+    print()
+    # print(json.dumps(movie_rt_dict, indent=4))
+
+    result_list = sorted(
+        movie_rt_dict.keys(),
+        key=lambda x: (movie_rt_dict[x], x),
+        reverse=True
+    )
+
+    return result_list
 # some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
 # get_sorted_recommendations(["Bridesmaids", "Sherlock Holmes"])
 
