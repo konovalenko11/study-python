@@ -1,3 +1,5 @@
 .idea/*
 .idea/workspace.xml
 .idea/*.xml
+jupyter/pil_tesseract_opencv/readonly/images.zip
+jupyter/pil_tesseract_opencv/readonly/small_img.zip
